@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/suspension",
+      "schedule": "10 12 * * *"
+    },
+    {
+      "path": "/api/cron/respaldo",
+      "schedule": "0 12 * * *"
+    }
+  ]
+}
